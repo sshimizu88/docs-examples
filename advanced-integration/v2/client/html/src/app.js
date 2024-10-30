@@ -129,6 +129,7 @@ async function createOrderCallback() {
         cardField
           .submit({
             // From your billing address fields
+            /*
             billingAddress: {
               addressLine1: document.getElementById("card-billing-address-line-1")
                 .value,
@@ -147,6 +148,7 @@ async function createOrderCallback() {
                 "card-billing-address-postal-code",
               ).value,
             },
+            */
           })
           .catch((error) => {
             resultMessage(
